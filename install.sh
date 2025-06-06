@@ -4,7 +4,7 @@
 apps="git tmux keepassxc podman"
 c="clang clangd clang-format gdb cmake bear"
 utils="wget curl jq ripgrep fd-find build-essential"
-sudo apt-get install -y $apps $utils
+sudo apt-get install -y $apps $c $utils
 
 # config
 mkdir -p ~/.config/nvim && cp init.lua ~/.config/nvim
