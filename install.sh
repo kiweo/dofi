@@ -2,6 +2,7 @@
 
 # packages
 apps="git tmux keepassxc podman"
+c="clang clangd clang-format gdb cmake bear"
 utils="wget curl jq ripgrep fd-find build-essential"
 sudo apt-get install -y $apps $utils
 
